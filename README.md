@@ -8,9 +8,15 @@ In Block 3, we manipulated each participant’s bias from Block 2 by switching t
 
 In Block 4 and 5, we added the dynamic Gaussian noise at six possible non-zero levels. To ensure our stimulus presentation conditions were relative to a no noise baseline condition within the same block, we additionally included a zero-noise condition. Block 4 contained 240 trials (30 trials at each noise level, randomized order) with an 80/20 split of consonant/vowels or vowels/consonants (depending on the participant’s bias determined in Block 2). Participants were informed of the uneven base rates in this block. Finally, Block 5 was a repeat of Block 4 to increase the number of trials per noise level to 60. 
 
-SCRIPTS are numbered in the order that they should be ran:
+
+SCRIPTS are numbered in the order that they should be run:
+
 (1) sr_0_less_letters_bias_practice.m
+
 (2) sr_1_QUEST_less_letters_bias.m
+
 (3) sr_2_less_letters_bias_zn_noMan.m
+
 (4) sr_3_less_letters_bias_zn_br.m
+
 (5) sr_4_and_5_less_letters_bias_wn_br.m (this block will repeat)
